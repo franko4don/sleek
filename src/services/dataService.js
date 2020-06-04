@@ -1,5 +1,5 @@
 
 
 export default async function fetchStudentData(){
-    return fetch('https://www.hatchways.io/api/assessment/students');
+    return fetch(process.env.REACT_APP_API_URL);
 }
