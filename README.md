@@ -1,68 +1,76 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [React](https://reactjs.org/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react) [![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/facebook/react) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
 
-## Available Scripts
+## About This Application
 
-In the project directory, you can run:
+This application is designed as display for student records using react as a framework.
 
-### `yarn start`
+## Deploying This Application
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Prerequisites
+- --- [yarn version v1.21.1 installed]()
+- --- [react version v16.13.1 installed]()
+- --- [react-dom version 16.13.1 installed]()
+- --- [react-scripts version 3.4.1 installed]()
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### Recommendations
+- --- [postman version 7.10.0](https://www.getpostman.com/)
 
-### `yarn test`
+#### Procedure
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Open bash terminal
+```
+git clone git@github.com:project-url
+cd cloned/app/folder
+yarn install
+```
 
-### `yarn build`
+- "yarn install" command would be the equivalent of "composer install" in php application enviroment
+- Update the settings in the .env.example file with the correct parameters.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+cp .env.example .env
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- start server
+```
+yarn start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## About React
 
-### `yarn eject`
+* Use [Online Playgrounds](https://reactjs.org/docs/getting-started.html#online-playgrounds) to get a taste of React.
+* [Add React to a Website](https://reactjs.org/docs/add-react-to-a-website.html) as a `<script>` tag in one minute.
+* [Create a New React App](https://reactjs.org/docs/create-a-new-react-app.html) if you're looking for a powerful JavaScript toolchain.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You can use React as a `<script>` tag from a [CDN](https://reactjs.org/docs/cdn-links.html), or as a `react` package on [npm](https://www.npmjs.com/package/react).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## React Documentation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You can find the React documentation [on the website](https://reactjs.org/docs).  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Check out the [Getting Started](https://reactjs.org/docs/getting-started.html) page for a quick overview.
 
-## Learn More
+The documentation is divided into several sections:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [Tutorial](https://reactjs.org/tutorial/tutorial.html)
+* [Main Concepts](https://reactjs.org/docs/hello-world.html)
+* [Advanced Guides](https://reactjs.org/docs/jsx-in-depth.html)
+* [API Reference](https://reactjs.org/docs/react-api.html)
+* [Where to Get Support](https://reactjs.org/community/support.html)
+* [Contributing Guide](https://reactjs.org/docs/how-to-contribute.html)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can improve it by sending pull requests to [this repository](https://github.com/reactjs/reactjs.org).
 
-### Code Splitting
+## Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Development of React happens in the open on GitHub, and we are grateful to the community for contributing bugfixes and improvements. the contributing guide can be found at [contributing guide](https://reactjs.org/contributing/how-to-contribute.html).
 
-### Analyzing the Bundle Size
+## Security Vulnerabilities
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+if you discover a security vulnerability within React, please send an email to react community security section via [Community Support Section](https://reactjs.org/community/support.html) or if the vulnerability is related to this
+application only please send an email to [ugdesmond@gmail.com](mailto:ugdesmond@gmail.com). All security vulnerabilities
+will be addressed promptly.
 
-### Making a Progressive Web App
+### License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+React is [MIT licensed](./LICENSE).
